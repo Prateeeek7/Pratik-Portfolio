@@ -1,0 +1,150 @@
+{
+  "personal": {
+    "name": "Pratik Kumar",
+    "title": "Full Stack Developer & UI/UX Designer",
+    "email": "pratik2002singh@gmail.com",
+    "phone": "+91-9109-787-343",
+    "location": "Vellore, Tamil Nadu, India",
+    "bio": "I'm a passionate full-stack developer and designer with over 4 years of experience creating digital solutions that make a difference. My journey began with a curiosity about how things work, which led me to explore the fascinating world of technology and design."
+  },
+  "skills": {
+    "technical": [
+      { "name": "JavaScript", "proficiency": 90 },
+      { "name": "React", "proficiency": 85 },
+      { "name": "Node.js", "proficiency": 80 },
+      { "name": "Python", "proficiency": 75 },
+      { "name": "TypeScript", "proficiency": 70 },
+      { "name": "MongoDB", "proficiency": 75 },
+      { "name": "PostgreSQL", "proficiency": 70 }
+    ],
+    "design": [
+      { "name": "Figma", "proficiency": 90 },
+      { "name": "Adobe Creative Suite", "proficiency": 80 },
+      { "name": "UI/UX Design", "proficiency": 85 },
+      { "name": "Prototyping", "proficiency": 75 },
+      { "name": "Wireframing", "proficiency": 80 }
+    ],
+    "tools": [
+      { "name": "Git", "proficiency": 90 },
+      { "name": "Docker", "proficiency": 70 },
+      { "name": "AWS", "proficiency": 65 },
+      { "name": "Webpack", "proficiency": 70 },
+      { "name": "Jest", "proficiency": 75 }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Platform",
+      "category": "web",
+      "description": "Full-stack e-commerce platform with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
+      "image": "EC",
+      "featured": true,
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/ecommerce"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "category": "web",
+      "description": "React-based task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
+      "technologies": ["React", "TypeScript", "Firebase", "Material-UI"],
+      "image": "TM",
+      "featured": true,
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/taskmanager"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity Design",
+      "category": "design",
+      "description": "Complete brand identity package for a tech startup including logo design, color palette, typography, and brand guidelines.",
+      "technologies": ["Adobe Illustrator", "Photoshop", "Figma"],
+      "image": "BI",
+      "featured": true,
+      "links": {
+        "demo": "https://behance.net/johndoe"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mobile Banking App",
+      "category": "mobile",
+      "description": "UI/UX design for a modern mobile banking application with focus on security, usability, and accessibility.",
+      "technologies": ["Figma", "Sketch", "Principle", "InVision"],
+      "image": "MB",
+      "featured": false,
+      "links": {
+        "demo": "https://figma.com/johndoe"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Weather Dashboard",
+      "category": "web",
+      "description": "Real-time weather dashboard with interactive maps, forecasts, and location-based weather alerts.",
+      "technologies": ["JavaScript", "Chart.js", "Weather API", "Leaflet"],
+      "image": "WD",
+      "featured": false,
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/weather"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Restaurant Website",
+      "category": "design",
+      "description": "Modern restaurant website design with online reservation system and menu showcase.",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "image": "RW",
+      "featured": false,
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/restaurant"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2022-01",
+      "endDate": null,
+      "current": true,
+      "description": "Lead development of web applications using React, Node.js, and cloud technologies. Mentor junior developers and collaborate with design teams.",
+      "technologies": ["React", "Node.js", "AWS", "PostgreSQL"]
+    },
+    {
+      "company": "Design Studio",
+      "position": "UI/UX Designer",
+      "startDate": "2021-06",
+      "endDate": "2021-12",
+      "current": false,
+      "description": "Created user interfaces and experiences for mobile and web applications. Conducted user research and usability testing.",
+      "technologies": ["Figma", "Sketch", "Adobe XD", "Principle"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vellore Institute of Technology",
+      "degree": "Bachelor of technology",
+      "field": "Elcetrical and Electronics Engineering",
+      "startYear": "2024",
+      "endYear": "2028",
+      "gpa": "9.2",
+      "current": false
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "twitter": "https://twitter.com/johndoe",
+    "dribbble": "https://dribbble.com/johndoe"
+  }
+}
