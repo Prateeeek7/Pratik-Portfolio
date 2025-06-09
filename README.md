@@ -38,13 +38,14 @@ Includes a fully functional form to collect user name, email, and message with c
 
 ## 📸 Preview
 
-![Portfolio Screenshot](assets/preview.png) <!-- Add a real screenshot if available -->
+![Portfolio Screenshot](assets/preview.png) <!-- Add![Screenshot 2025-06-09 at 9 39 53 PM](https://github.com/user-attachments/assets/342a1178-ad3f-42f9-bf54-db72d9219362)
+ a real screenshot if available -->
 
 ## 🚀 Getting Started
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Prateeeek7/Pratik-Portfolio.git
    cd portfolio
 2. Open index.html in your browser.
 
