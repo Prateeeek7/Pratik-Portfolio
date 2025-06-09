@@ -348,6 +348,7 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+  margin-left:100px;
 }
 
 .profile-ring, .profile-ring-2 {
