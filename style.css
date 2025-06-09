@@ -324,6 +324,7 @@ body {
   height: 450px;
   margin: 0 auto;
   position: relative;
+  margin-left:90px;
 }
 
 .profile-image {
@@ -348,7 +349,7 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  margin-left:100px;
+  
 }
 
 .profile-ring, .profile-ring-2 {
