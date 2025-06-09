@@ -49,4 +49,4 @@ Includes a fully functional form to collect user name, email, and message with c
 2. Open index.html in your browser.
 
 📄 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License
