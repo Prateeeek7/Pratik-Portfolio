@@ -322,9 +322,8 @@ body {
 .profile-circle {
   width: 450px;
   height: 450px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center horizontally */
   position: relative;
-  margin-left:10px;
 }
 
 .profile-image {
@@ -341,19 +340,60 @@ body {
   position: relative;
   z-index: 3;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  margin-left: 60px; /* Move the image 100px to the right */
+  margin: 0 auto; /* Center image */
 }
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-ring,
+.profile-ring-2 {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  animation: rotate 20s linear infinite;
+}
+
+.profile-ring {
+  width: 260px;
+  height: 260px;
+  top: 0;
+  left: 0;
+}
+
+.profile-ring-2 {
+  width: 300px;
+  height: 300px;
+  top: -20px;
+  left: -20px;
+  animation-direction: reverse;
+  animation-duration: 30s;
+}
+
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .profile-circle {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 
   .profile-image {
     width: 270px;
     height: 270px;
-    margin: 0 auto; /* This will center it horizontally */
+    margin: 0 auto;
   }
+
+  .profile-ring,
+  .profile-ring-2 {
+    display: none;
+  }
+}
+
 
   .profile-ring,
   .profile-ring-2 {
