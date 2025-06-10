@@ -343,6 +343,24 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   margin-left: 0px; /* Move the image 100px to the right */
 }
+@media (max-width: 768px) {
+  .profile-circle {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-image {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto; /* This will center it horizontally */
+  }
+
+  .profile-ring,
+  .profile-ring-2 {
+    display: none; /* Optional: hide rings if they mess up mobile view */
+  }
+}
+
 
 .profile-image img {
   width: 100%;
