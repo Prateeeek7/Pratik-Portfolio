@@ -341,7 +341,7 @@ body {
   position: relative;
   z-index: 3;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  margin-left: 30px; /* Move the image 100px to the right */
+  margin-left: 60px; /* Move the image 100px to the right */
 }
 @media (max-width: 768px) {
   .profile-circle {
