@@ -15,7 +15,14 @@
       { "name": "Python", "proficiency": 75 },
       { "name": "TypeScript", "proficiency": 70 },
       { "name": "MongoDB", "proficiency": 75 },
-      { "name": "PostgreSQL", "proficiency": 70 }
+      { "name": "PostgreSQL", "proficiency": 70 },
+      { "name": "LangChain", "proficiency": 80 },
+      { "name": "PyTorch", "proficiency": 75 },
+      { "name": "TensorFlow", "proficiency": 70 },
+      { "name": "OpenAI API", "proficiency": 85 },
+      { "name": "Google Gemini", "proficiency": 85 },
+      { "name": "RAG Systems", "proficiency": 80 },
+      { "name": "Machine Learning", "proficiency": 75 }
     ],
     "design": [
       { "name": "Figma", "proficiency": 90 },
@@ -35,99 +42,99 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Platform",
+      "title": "World of Human Cells",
       "category": "web",
-      "description": "Full-stack e-commerce platform with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      "image": "EC",
+      "description": "An interactive educational platform exploring human cell biology with AI-powered chatbot, comprehensive cell information, research references, and interactive timelines. Features include cell comparison, search functionality, and PWA support.",
+      "technologies": ["React", "React Router", "Tailwind CSS", "Framer Motion", "Groq API", "React Markdown", "PWA"],
+      "image": "Cells.png",
       "featured": true,
       "links": {
-        "demo": "https://example.com",
-        "github": "https://github.com/johndoe/ecommerce"
+        "demo": "http://worldofhumancells.vercel.app",
+        "github": "https://github.com/Prateeeek7/World-of-Cells.git"
       }
     },
     {
       "id": 2,
-      "title": "Task Management App",
+      "title": "Zero Waste Lifestyle",
       "category": "web",
-      "description": "React-based task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
-      "technologies": ["React", "TypeScript", "Firebase", "Material-UI"],
-      "image": "TM",
+      "description": "A comprehensive sustainability platform with AI-powered waste classification using Google Gemini Vision, LLaMA 3 chatbot, interactive recycling map, gamification system with badges, quiz engine, impact calculator, and real-time analytics dashboard. Built with Next.js and Supabase.",
+      "technologies": ["Next.js", "TypeScript", "Supabase", "Google Gemini", "LLaMA 3", "Tailwind CSS", "shadcn/ui", "Framer Motion", "Leaflet"],
+      "image": "waste.png",
       "featured": true,
       "links": {
-        "demo": "https://example.com",
-        "github": "https://github.com/johndoe/taskmanager"
+        "demo": "https://zero-waste-lifestyle-indol.vercel.app/",
+        "github": "https://github.com/Prateeeek7/Zero-Waste-Lifestyle.git"
       }
     },
     {
       "id": 3,
-      "title": "Brand Identity Design",
-      "category": "design",
-      "description": "Complete brand identity package for a tech startup including logo design, color palette, typography, and brand guidelines.",
-      "technologies": ["Adobe Illustrator", "Photoshop", "Figma"],
-      "image": "BI",
+      "title": "EMS - Environmental Monitoring System",
+      "category": "web",
+      "description": "IoT-based real-time environmental monitoring system using ESP8266 microcontroller with DHT11 temperature/humidity sensor and gas sensor. Features include WiFi connectivity, Flask REST API backend, Streamlit dashboard with interactive charts, LCD display, cloud data storage, and real-time analytics. Monitors air quality, temperature, and humidity with automatic data logging.",
+      "technologies": ["C++", "Arduino", "ESP8266", "Python", "Flask", "Streamlit", "Plotly", "Pandas", "SQLite", "DHT11"],
+      "image": "EMD.png",
       "featured": true,
       "links": {
-        "demo": "https://behance.net/johndoe"
+        "demo": "https://drive.google.com/file/d/1rm2vBBOxQ8T6EFnv6QUcrOKMPsiehR12/view?usp=sharing",
+        "github": "https://github.com/Prateeeek7/EMS-Environmental-Monitoring-System.git"
       }
     },
     {
       "id": 4,
-      "title": "Mobile Banking App",
-      "category": "mobile",
-      "description": "UI/UX design for a modern mobile banking application with focus on security, usability, and accessibility.",
-      "technologies": ["Figma", "Sketch", "Principle", "InVision"],
-      "image": "MB",
-      "featured": false,
+      "title": "BiomechAI",
+      "category": "web",
+      "description": "Advanced biomechanics analysis platform combining ESP32 sensor data collection with AI-powered posture and gait analysis. Features real-time biomechanical assessment using MediaPipe pose detection, MPU6050 IMU sensor integration, Google Gemini AI chatbot for personalized recommendations, interactive dashboard with live data visualization, and comprehensive biomechanical reports. Enables real-time posture monitoring and gait pattern analysis.",
+      "technologies": ["React", "TypeScript", "ESP32", "MPU6050", "Convex", "Google Gemini", "MediaPipe", "Tailwind CSS", "Framer Motion", "Arduino"],
+      "image": "BiomechAI.png",
+      "featured": true,
       "links": {
-        "demo": "https://figma.com/johndoe"
+        "demo": "https://drive.google.com/drive/folders/1TTz3fzyRwLvMzzOVJYborxDv1Ng4TsB8?usp=drive_link",
+        "github": "https://github.com/Prateeeek7/BiomechAI.git"
       }
     },
     {
       "id": 5,
-      "title": "Weather Dashboard",
+      "title": "Travelian India",
       "category": "web",
-      "description": "Real-time weather dashboard with interactive maps, forecasts, and location-based weather alerts.",
-      "technologies": ["JavaScript", "Chart.js", "Weather API", "Leaflet"],
-      "image": "WD",
-      "featured": false,
+      "description": "AI-powered travel planning platform with multi-agent system using Google Gemini. Features intelligent itinerary generation, budget planning with multiple tiers, interactive maps with OpenStreetMap integration, real-time travel recommendations, and comprehensive travel planning. Built with React 19 and FastAPI backend, includes LangChain orchestration, MongoDB geo-based recommendations, and GSAP animations. Developed for Samsung PRISM GenAI Hackathon 2025.",
+      "technologies": ["React", "TypeScript", "FastAPI", "Python", "LangChain", "Google Gemini", "Tailwind CSS", "Framer Motion", "GSAP", "MongoDB", "OpenAI"],
+      "image": "travel.png",
+      "featured": true,
       "links": {
-        "demo": "https://example.com",
-        "github": "https://github.com/johndoe/weather"
+        "github": "https://github.com/Prateeeek7/Travelian_BitWizards_GenAI.git"
       }
     },
     {
       "id": 6,
-      "title": "Restaurant Website",
-      "category": "design",
-      "description": "Modern restaurant website design with online reservation system and menu showcase.",
-      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "title": "FloatChat - AI-Powered ARGO Ocean Data Analysis",
+      "category": "web",
+      "description": "Intelligent conversational system for exploring and analyzing ARGO float oceanographic data using natural language queries. Features RAG (Retrieval-Augmented Generation) for natural language to SQL translation, interactive Streamlit dashboard with geospatial visualization, FastAPI RESTful backend, and trained LSTM/CNN models for ocean data prediction. Processes 6,514 NetCDF files with 6,178 ARGO float profiles covering temperature, salinity, pressure, and depth data across Indian, Southern, and Pacific Oceans. Optimized for 16GB M4 MacBook with memory-efficient chunked processing.",
+      "technologies": ["Python", "Streamlit", "FastAPI", "SQLite", "FAISS", "OpenAI", "PyTorch", "RAG", "LSTM", "CNN", "NetCDF", "Pandas"],
       "image": "RW",
-      "featured": false,
+      "featured": true,
       "links": {
-        "demo": "https://example.com",
-        "github": "https://github.com/johndoe/restaurant"
+        "github": "https://github.com/Prateeeek7/FloatChat-AI.git"
       }
     }
   ],
   "experience": [
     {
-      "company": "Tech Solutions Inc.",
-      "position": "Senior Full Stack Developer",
-      "startDate": "2022-01",
+      "company": "Jurident",
+      "position": "UI/UX Designer Intern",
+      "startDate": "April'25 - June'25",
       "endDate": null,
       "current": true,
-      "description": "Lead development of web applications using React, Node.js, and cloud technologies. Mentor junior developers and collaborate with design teams.",
-      "technologies": ["React", "Node.js", "AWS", "PostgreSQL"]
+      "description": "Design user interfaces and experiences for web and mobile applications. Create wireframes, prototypes, and high-fidelity designs. Conduct user research and usability testing. Collaborate with development teams to ensure design implementation.",
+      "technologies": ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research"]
     },
     {
-      "company": "Design Studio",
-      "position": "UI/UX Designer",
-      "startDate": "2021-06",
-      "endDate": "2021-12",
-      "current": false,
-      "description": "Created user interfaces and experiences for mobile and web applications. Conducted user research and usability testing.",
-      "technologies": ["Figma", "Sketch", "Adobe XD", "Principle"]
+      "company": "CSI - Computer Society of India",
+      "position": "Senior Core Member - Design Domain",
+      "startDate": "2024",
+      "endDate": null,
+      "current": true,
+      "description": "Lead design initiatives and mentor members in the Design domain. Organize design workshops, competitions, and events. Create user interfaces and experiences for society projects and events. Collaborate with cross-functional teams to deliver high-quality design solutions.",
+      "technologies": ["Figma", "Adobe XD", "Sketch", "Prototyping", "UI/UX Design"]
     }
   ],
   "education": [
@@ -142,9 +149,9 @@
     }
   ],
   "social": {
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "github": "https://github.com/johndoe",
-    "twitter": "https://twitter.com/johndoe",
+    "linkedin": "https://www.linkedin.com/in/pratik-kumar-198172186?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "github": "https://github.com/Prateeeek7",
+    "twitter": "https://x.com/PratikK54196490",
     "dribbble": "https://dribbble.com/johndoe"
   }
 }
