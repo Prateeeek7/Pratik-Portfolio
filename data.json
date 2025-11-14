@@ -110,7 +110,7 @@
       "category": "web",
       "description": "Intelligent conversational system for exploring and analyzing ARGO float oceanographic data using natural language queries. Features RAG (Retrieval-Augmented Generation) for natural language to SQL translation, interactive Streamlit dashboard with geospatial visualization, FastAPI RESTful backend, and trained LSTM/CNN models for ocean data prediction. Processes 6,514 NetCDF files with 6,178 ARGO float profiles covering temperature, salinity, pressure, and depth data across Indian, Southern, and Pacific Oceans. Optimized for 16GB M4 MacBook with memory-efficient chunked processing.",
       "technologies": ["Python", "Streamlit", "FastAPI", "SQLite", "FAISS", "OpenAI", "PyTorch", "RAG", "LSTM", "CNN", "NetCDF", "Pandas"],
-      "image": "RW",
+      "image": "float.png",
       "featured": true,
       "links": {
         "github": "https://github.com/Prateeeek7/FloatChat-AI.git"
